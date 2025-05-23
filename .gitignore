@@ -13,3 +13,5 @@ data/
 strategy/
 config/
 logs/
+
+.cursor
