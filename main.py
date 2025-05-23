@@ -162,8 +162,8 @@ async def run_backtest(
     # Define strategies
     strategies = [
         ImportableStrategyConfig(
-            strategy_path="strategy.strategies.EMACrossBracket:EMACrossBracket",
-            config_path="strategy.strategies.EMACrossBracket:EMACrossBracketConfig",
+            strategy_path="strategies.EMACrossBracket:EMACrossBracket",
+            config_path="strategies.EMACrossBracket:EMACrossBracketConfig",
             config={
                 "instrument_id": instrument.id,
                 "bar_type": bar_type,
